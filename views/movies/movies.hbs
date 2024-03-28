@@ -1,0 +1,11 @@
+<h1>Movies</h1>
+
+<div>
+    {{#each casts}}
+        <ul>
+            <li><a href="/movies/{{_id}}">{{title}}</a></li>
+            <li>Genre: {{genre}}</li>
+            <br>
+        </ul>
+    {{/each}}
+</div>
